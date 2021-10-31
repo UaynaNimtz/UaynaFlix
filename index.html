@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="widht"=device-widht, initial-scale=1.0>
+		<title> UayFlix </title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body onload="CarregarFilmes()">
+		<main class="container">
+			<span class="titulo"> Uay<span class="destaque">Flix </span> </span>
+
+				<br> <br> 
+
+			<input id="nome-do-filme" placeholder="Nome da imagem"> 
+
+			<button type="button" onclick="AdicionarFilme()"> ADICIONAR</button>
+
+			<div class="lista-filmes"> </div>
+
+			<video controls>
+				<source src="video/video-filme.mp4" type="video/mp4">
+			</video>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Bjo0sVS4-Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</main>
+			<script src="js/array.js"></script>
+	</body>
+</html>
